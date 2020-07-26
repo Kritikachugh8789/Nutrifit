@@ -39,6 +39,28 @@ a {
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out;
 }
+box1{
+	position: relative;
+	display: inline-block; /* Make the width of box same as image */
+}
+.box1 .text h3{
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	/* vertical-align: center; */
+	top: 30%; /*Adjust this value to move the positioned div up and down*/
+	text-align: center;
+	/* width: 60%; Set the width of the positioned div */
+	color: black;
+	text-shadow: 0 0 3px black, 0 0 5px black;
+	font-size: 50px;
+    font-weight: 700;
+    padding: 0;
+    line-height: 45px !important;
+    text-transform: uppercase;
+}
 
 h1,
 h2,
